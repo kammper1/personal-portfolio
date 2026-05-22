@@ -1,0 +1,29 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--dark-purple);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  z-index: 100;
+}
+
+.navbar a {
+  color: rgb(169, 169, 169);
+  transition: all 0.3s ease-in;
+}
+
+.navbar a:hover {
+  color: var(--primary);
+}
+
+.nav_list {
+  display: flex;
+  gap: 2rem;
+  padding: 0.5rem 0;
+  font-size: 17px;
+}
