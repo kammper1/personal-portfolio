@@ -2,23 +2,23 @@ import styles from "./Navbar.module.css";
 
 export default function Navbar() {
   return (
-    <header className={styles.navbar}>
+    <header className={`${styles.navbar} glass`}>
       <nav>
         <ul className={styles.nav_list}>
           <li>
-            <a href="#home">Home</a>
+            <a href="#home">Inicio</a>
           </li>
           <li>
             <a href="#stack">Stack</a>
           </li>
           <li>
-            <a href="#projects">Projects</a>
+            <a href="#projects">Proyectos</a>
           </li>
           <li>
-            <a href="#experience">Experience</a>
+            <a href="#experience">Experiencia</a>
           </li>
           <li>
-            <a href="#education">Education</a>
+            <a href="#education">Educación</a>
           </li>
         </ul>
       </nav>
