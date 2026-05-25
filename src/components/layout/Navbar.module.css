@@ -5,15 +5,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--dark-purple);
-  backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(14px);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  border-bottom: var(--border-gray);
   z-index: 100;
 }
 
 .navbar a {
-  color: rgb(169, 169, 169);
+  color: var(--text-gray);
   transition: all 0.3s ease-in;
 }
 

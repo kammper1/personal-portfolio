@@ -8,8 +8,11 @@
   --blue-glow: rgba(59, 130, 246, 0.25);
   --pink-glow: rgba(217, 70, 239, 0.2);
   --dark-purple: rgba(15, 10, 31, 0.55);
+  --text-gray: #9f9baf;
+  --border-gray: 1px solid rgba(255, 255, 255, 0.08);
   --font-inter: "Inter", sans-serif;
   --font-grotesk: "Space Grotesk", sans-serif;
+  --font-jetbrains: "JetBrains Mono", sans-serif;
 }
 
 body {
@@ -33,4 +36,10 @@ a {
 
 ul {
   list-style: none;
+}
+
+.glass {
+  background-color: var(--dark-purple);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
 }

@@ -1,0 +1,65 @@
+.hero {
+  margin-top: 7rem;
+  padding: 1rem 5rem;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 5px 10px;
+  border: var(--border-gray);
+  border-radius: 15px;
+  color: var(--text-gray);
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: var(--primary);
+  border-radius: 50%;
+  animation: blink 1.8s ease-in-out infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.2;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.name {
+  font-size: 4rem;
+  font-family: var(--font-grotesk);
+  margin: 0.5rem 0;
+  letter-spacing: -0.05em;
+}
+
+.name_bg {
+  background: linear-gradient(135deg, #d946ef 0%, #c084fc 60%, #a855f7 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.subtitle,
+.about {
+  color: var(--text-gray);
+}
+
+.subtitle {
+  font-weight: 400;
+}
+
+.about {
+  width: 60ch;
+  font-size: 23px;
+  line-height: 1.7;
+}
