@@ -9,7 +9,7 @@ export default function Hero() {
         ¡Disponible para nuevos proyectos!
       </div>
       <h1 className={styles.name}>
-        Kevin <span className={styles.name_bg}>Marquez</span>
+        Kevin <span className="title_bg">Marquez</span>
       </h1>
       <h2 className={styles.subtitle}>
         Desarrollador Backend | Sistemas y automatizaciones que facilitan el

@@ -21,32 +21,11 @@
   animation: blink 1.8s ease-in-out infinite;
 }
 
-@keyframes blink {
-  0% {
-    opacity: 1;
-  }
-
-  50% {
-    opacity: 0.2;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
 .name {
   font-size: 4rem;
   font-family: var(--font-grotesk);
   margin: 0.5rem 0;
   letter-spacing: -0.05em;
-}
-
-.name_bg {
-  background: linear-gradient(135deg, #d946ef 0%, #c084fc 60%, #a855f7 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
 }
 
 .subtitle,
@@ -62,4 +41,18 @@
   width: 60ch;
   font-size: 23px;
   line-height: 1.7;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.2;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }

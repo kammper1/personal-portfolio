@@ -38,8 +38,31 @@ ul {
   list-style: none;
 }
 
+.title_bg {
+  background: linear-gradient(135deg, #d946ef 0%, #c084fc 60%, #a855f7 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
 .glass {
   background-color: var(--dark-purple);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
+}
+
+.section_tag {
+  color: var(--primary);
+}
+
+.section_title {
+  font-size: 3rem;
+  font-family: var(--font-grotesk);
+  margin: 0.5rem 0;
+  letter-spacing: -0.05em;
+}
+
+.section_subtitle {
+  color: var(--text-gray);
+  font-size: 23px;
 }
