@@ -1,0 +1,22 @@
+/*===== GENERAL STYLES =====*/
+:root {
+  --inter: "Inter", system-ui;
+  --jetbrains: "JetBrains Mono", monospace;
+  --global-bg: #020610;
+  --container-bg: #141c29;
+  --green: rgb(45 212 191);
+  --purple: rgb(192 132 252);
+  --blue: rgb(96 165 250);
+  --primary_gray: #9ca39b;
+  --secondary-gray: #647279;
+  --container-border: 1px solid #1f2937;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--inter);
+  color: var(--primary_gray);
+  background-color: var(--global-bg);
+}
