@@ -24,12 +24,96 @@ body {
 main {
   border: 2px solid red;
   padding: 2rem;
-  width: 50%;
+  width: 70%;
   margin: 0 auto;
 }
 
 .icon {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
+  transition: all 300ms ease-in;
+}
+
+.smaller {
+  width: 30px;
+  height: 30px;
+}
+
+ul {
+  list-style: none;
+}
+
+/*===== HERO STYLES =====*/
+.hero {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.name {
+  font-size: 4.5rem;
+  line-height: 1;
+  letter-spacing: -3px;
+  margin: 0 auto;
+  background: linear-gradient(to right, var(--blue), var(--purple));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.subtitle {
+  font-size: 2.5rem;
+  margin-top: 0.5rem;
   color: #fff;
+}
+
+.hero-desc {
+  font-size: 1.5rem;
+  margin-top: 0;
+  text-align: center;
+  width: 50ch;
+}
+
+.contact-list {
+  display: flex;
+  align-items: center;
+}
+
+.email {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  height: 3rem;
+  padding: 0 1rem;
+  border: 1px solid var(--primary_gray);
+  border-radius: 15px;
+  font-family: var(--jetbrains);
+  color: var(--primary_gray);
+  transition: all 300ms ease-in;
+}
+
+.email:hover {
+  cursor: pointer;
+  color: var(--green);
+  border: 1px solid var(--green);
+}
+
+.icon-list {
+  display: flex;
+  align-items: center;
+  width: 14rem;
+  gap: 1rem;
+}
+
+.social-icon {
+  color: var(--primary_gray);
+  transition: all 300ms ease-in;
+}
+
+.social-icon:hover {
+  color: var(--green);
 }
